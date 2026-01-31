@@ -18,20 +18,6 @@ public:
         }
 
         return letters[left % letters.size()];
+        
     }
 };
-
-
-int main() {
-    Solution s;
-
-   
-    vector<char> letters = {'c', 'f', 'j'};
-    char target = 'a';
-
-    char result = s.nextGreatestLetter(letters, target);
-
-    cout << "Next greatest letter after '" << target << "' is: " << result << endl;
-
-    return 0;
-}
